@@ -2,7 +2,7 @@ package com.levkovskiy.patterncheatnote.creational.builder
 
 class Creator {
 
-    fun createVehice(builder: Builder): Vehicle {
+    fun createVehicle(builder: Builder): Vehicle {
         builder.createVehicle()
         builder.addDoors()
         builder.addEngine()

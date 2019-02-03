@@ -2,13 +2,13 @@ package com.levkovskiy.patterncheatnote.creational.builder
 
 interface Builder {
 
-    public fun createVehicle()
+    fun createVehicle()
 
-    public fun addWheel()
+    fun addWheel()
 
-    public fun addEngine()
+    fun addEngine()
 
-    public fun addDoors()
+    fun addDoors()
 
-    public fun getVehicle(): Vehicle
+    fun getVehicle(): Vehicle
 }

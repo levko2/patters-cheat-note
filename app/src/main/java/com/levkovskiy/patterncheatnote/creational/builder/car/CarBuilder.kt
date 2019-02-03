@@ -11,7 +11,7 @@ class CarBuilder : Builder {
     }
 
     override fun addWheel() {
-        vehicle.engine = "carWheel"
+        vehicle.wheel = "carWheel"
     }
 
     override fun addEngine() {
