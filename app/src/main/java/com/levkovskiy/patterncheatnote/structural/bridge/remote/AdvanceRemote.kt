@@ -1,6 +1,6 @@
-package com.levkovskiy.patterncheatnote.behavioral.bridge.remote
+package com.levkovskiy.patterncheatnote.structural.bridge.remote
 
-import com.levkovskiy.patterncheatnote.behavioral.bridge.device.Device
+import com.levkovskiy.patterncheatnote.structural.bridge.device.Device
 
 class AdvanceRemote(private val device: Device) : Remote(device) {
     fun mute() {

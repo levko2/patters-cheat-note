@@ -1,4 +1,4 @@
-package com.levkovskiy.patterncheatnote.behavioral.composite
+package com.levkovskiy.patterncheatnote.structural.composite
 
 class Circle(private var x: Int, private var y: Int, private var radius: Int) : Dot(x, y) {
 

@@ -1,7 +1,9 @@
-package com.levkovskiy.patterncheatnote.behavioral.bridge.remote
+package com.levkovskiy.patterncheatnote.structural.bridge
 
-import com.levkovskiy.patterncheatnote.behavioral.bridge.device.Radio
-import com.levkovskiy.patterncheatnote.behavioral.bridge.device.TV
+import com.levkovskiy.patterncheatnote.structural.bridge.device.Radio
+import com.levkovskiy.patterncheatnote.structural.bridge.device.TV
+import com.levkovskiy.patterncheatnote.structural.bridge.remote.AdvanceRemote
+import com.levkovskiy.patterncheatnote.structural.bridge.remote.Remote
 import org.junit.Assert.*
 import org.junit.Test
 import org.junit.runner.RunWith

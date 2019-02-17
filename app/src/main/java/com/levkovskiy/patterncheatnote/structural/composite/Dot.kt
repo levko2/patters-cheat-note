@@ -1,4 +1,4 @@
-package com.levkovskiy.patterncheatnote.behavioral.composite
+package com.levkovskiy.patterncheatnote.structural.composite
 
 open class Dot(private var x: Int, private var y: Int) : Graphic {
     override fun move(x: Int, y: Int) {

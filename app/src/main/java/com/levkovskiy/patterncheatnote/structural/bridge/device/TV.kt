@@ -1,4 +1,4 @@
-package com.levkovskiy.patterncheatnote.behavioral.bridge.device
+package com.levkovskiy.patterncheatnote.structural.bridge.device
 
 class TV : Device {
     private var volume: Int = 0

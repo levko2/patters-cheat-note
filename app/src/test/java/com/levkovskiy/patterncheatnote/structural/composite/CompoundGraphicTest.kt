@@ -1,4 +1,4 @@
-package com.levkovskiy.patterncheatnote.behavioral.composite
+package com.levkovskiy.patterncheatnote.structural.composite
 
 import org.junit.Assert.*
 import org.junit.Test

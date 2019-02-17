@@ -1,4 +1,4 @@
-package com.levkovskiy.patterncheatnote.behavioral.adapter
+package com.levkovskiy.patterncheatnote.structural.adapter
 
 import org.junit.Assert.*
 import org.junit.Test

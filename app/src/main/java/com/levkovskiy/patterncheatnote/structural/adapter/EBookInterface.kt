@@ -1,4 +1,4 @@
-package com.levkovskiy.patterncheatnote.behavioral.adapter
+package com.levkovskiy.patterncheatnote.structural.adapter
 
 interface EBookInterface {
     fun unlock()
