@@ -7,23 +7,17 @@ import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
-
+/*
+* Abstract factory
+* Существует фабрика которая создает разные реализации Parser интерфейса
+*/
 @RunWith(JUnit4::class)
 class ParserFactoryTest {
-
-    @Before
-    fun setup() {
-        // val mock = Mockito.mock(JSONObject::class.java)
-        //  verify(mock).toString()
-//        `when`(mock.toString()).thenReturn(anyString())
-
-    }
 
     @Test
     fun createXmlParser() {
         val parser = ParserFactory.createXmlParser()
         assertEquals(XmlParser::class.java, parser::class.java)
-
     }
 
     @Test
